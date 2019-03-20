@@ -2,4 +2,5 @@ TEMPLATE = subdirs
 
 SUBDIRS += \
     InsertionSort \
-    SelectionSort
+    SelectionSort \
+    MergeSort
