@@ -1,7 +1,18 @@
 #include <iostream>
 using namespace std;
 
+/*!
+ * \brief selectionSort Sorts the array using the selection sort algorithm
+ * \param arr Array of integers to sort
+ * \param n Length of the array
+ */
 void selectionSort(int* arr, int n);
+/*!
+ * \brief swap Swaps two elements in the array
+ * \param arr Array to perform the operation on
+ * \param a Index of the first element
+ * \param b Index of the second element
+ */
 void swap(int* arr, int a, int b);
 void printArray(int *arr, int n);
 

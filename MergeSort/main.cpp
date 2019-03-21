@@ -1,6 +1,13 @@
 #include <iostream>
 using namespace std;
 
+/*!
+ * \brief mergeSort Sorts the array using the merge sort algorithm
+ * \param arr Array of integers to sort
+ * \param start Start index of the subarray
+ * \param end End index of the subarray
+ * \return The sorted array
+ */
 int* mergeSort(int* arr, int start, int end);
 void printArray(int* arr, int n);
 

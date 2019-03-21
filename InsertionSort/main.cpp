@@ -1,6 +1,11 @@
 #include <iostream>
 using namespace std;
 
+/*!
+ * \brief insertionSort Sorts an array using the insertion sort algorithm
+ * \param arr Arry of integers to sort
+ * \param n Length of the array
+ */
 void insertionSort(int* arr, int n);
 void printArray(int* arr, int n);
 
