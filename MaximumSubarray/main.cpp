@@ -1,6 +1,14 @@
 #include <iostream>
 using namespace std;
 
+/*!
+ * \brief maximumSubarray Finds a subarray (consecutive) that has the maximum summation
+ * among all of the subarrays.
+ * \param arr The array to check
+ * \param start Range start index
+ * \param end Range end index
+ * \return Maximum summation
+ */
 int maximumSubarray(int* arr, int start, int end);
 void printArray(int* arr, int n);
 
