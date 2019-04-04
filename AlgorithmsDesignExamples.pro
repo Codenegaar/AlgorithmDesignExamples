@@ -4,4 +4,5 @@ SUBDIRS += \
     InsertionSort \
     SelectionSort \
     MergeSort \
-    BinarySearch
+    BinarySearch \
+    MaximumSubarray
